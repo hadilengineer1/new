@@ -3,8 +3,6 @@
 | | |
 |---|---|
 | **Author** | Hadil Trabelsi |
-| **Date** | 2026-11-06 |
-| **Status** | Draft for team review |
 | **Related** | [Requirements and invariants](requirements-and-invariants.md) · [Data model](data-model.md) |
 
 ## 1. Conventions

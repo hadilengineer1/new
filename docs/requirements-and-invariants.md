@@ -3,10 +3,8 @@
 | | |
 |---|---|
 | **Author** | Hadil Trabelsi |
-| **Date** | 2026-11-06 |
-| **Status** | Draft for team review |
 | **Related** | [Data model](data-model.md) · [API contracts](api-contracts.md) |
-| **Data** | Synthetic restaurant ("Le Jasmin"). No real customer data. |
+| **Data** | Synthetic restaurant. No real customer data. |
 
 ## 1. Purpose and scope
 
@@ -29,9 +27,6 @@ The business service and its database are the single source of truth for availab
 | Staff | Restaurant employee | Staff credentials (bearer token) |
 | Agent | The AI assistant. It acts for a guest, using only the tools it is given. It has no direct database access. | Same as the guest it acts for |
 
-Confirmation before a change ("Book Friday 19:00 for 4, correct?") is a behavior of the agent and the UI. The API itself treats every create, modify or cancel call as an explicit decision.
-
-Authentication and permission-denial behavior are implemented in Phase 2. This document defines the rules so the Phase 1 design leaves room for them.
 
 ## 3. Actions and permissions
 

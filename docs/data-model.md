@@ -3,8 +3,6 @@
 | | |
 |---|---|
 | **Author** | Hadil Trabelsi |
-| **Date** | 2026-11-06 |
-| **Status** | Draft for team review |
 | **Database** | PostgreSQL |
 | **Related** | [Requirements and invariants](requirements-and-invariants.md) · [API contracts](api-contracts.md) |
 
